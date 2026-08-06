@@ -1,0 +1,18 @@
+# Instalar con:  pip install -r requirements.txt
+#
+# Nota para Python 3.14: langchain-pinecone declara requires-python "<3.14"
+# (aun no lo testean ahi), pero todas sus dependencias ya tienen wheels cp314.
+# Este repo trae .venv/pip.conf con ignore-requires-python = true para saltear
+# ese tope. Si recreas el venv desde cero, instala con:
+#   pip install --ignore-requires-python -r requirements.txt
+
+langchain==1.3.14
+langchain-classic==1.0.8
+langchain-openai==1.4.1
+langchain-pinecone==0.2.13
+langchain-community==0.4.2
+langchain-text-splitters==1.1.2
+pinecone==7.3.0
+openai==2.53.0
+python-dotenv==1.2.2
+rank-bm25==0.2.2

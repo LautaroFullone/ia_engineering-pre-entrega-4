@@ -1,0 +1,22 @@
+[
+	{
+		"pregunta": "¿En qué año se fundó Mar del Plata?",
+		"documento_id_esperado": "historia"
+	},
+	{
+		"pregunta": "¿Quién fundó la ciudad de Mar del Plata?",
+		"documento_id_esperado": "historia"
+	},
+	{
+		"pregunta": "¿Cuál es la playa más tradicional y céntrica, frente al Casino?",
+		"documento_id_esperado": "playas"
+	},
+	{
+		"pregunta": "¿Por qué el agua del mar es tan fría en Mar del Plata?",
+		"documento_id_esperado": "playas"
+	},
+	{
+		"pregunta": "¿En qué año se fundó la marca de alfajores Havanna?",
+		"documento_id_esperado": "gastronomia"
+	}
+]
